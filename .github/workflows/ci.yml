@@ -19,7 +19,7 @@ jobs:
     needs: quality
     uses: ./.github/workflows/deploy-pages.yml
     with:
-      node-versions: "24"
+      node-version: "24"
     permissions:
       contents: read
       pages: write
